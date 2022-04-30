@@ -1,0 +1,42 @@
+{
+	"name": "fiscbot",
+	"version": "1.0.0",
+	"description": "Asistente virtual.",
+	"main": "bot.js",
+	"scripts": {
+		"start": "node bot.js",
+		"dev": "nodemon bot.js"
+	},
+	"keywords": [
+		"discord-js"
+	],
+	"author": {
+		"name": "Sebastián Morales",
+		"url": "https://github.com/nzkdevsaider",
+		"email": "sebasmoraresu@gmail.com"
+	},
+	"dependencies": {
+		"@discordjs/builders": "^0.6.0",
+		"@discordjs/rest": "^0.1.0-canary.0",
+		"axios": "^0.26.1",
+		"child_process": "^1.0.2",
+		"connect-mongo": "^4.6.0",
+		"cors": "^2.8.5",
+		"discord-api-types": "^0.22.0",
+		"discord.js": "^13.6.0",
+		"express": "^4.17.3",
+		"express-session": "^1.17.2",
+		"lodash": "^4.17.21",
+		"moment": "^2.29.3",
+		"mongoose": "^6.3.0",
+		"morgan": "^1.10.0",
+		"nodemailer": "^6.7.3",
+		"passport": "^0.5.2",
+		"passport-discord": "^0.1.4",
+		"passport-oauth2": "^1.6.1",
+		"util": "^0.12.4"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}
